@@ -1,0 +1,34 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+#index {
+    background: #f9f9f9 none repeat scroll 0 0;
+    /*border: 1px solid #aaa;*/
+    display: table;
+     position: fixed;
+     left: 10px; 
+     float: left;
+     width: 20%;
+}
+
+
+
+
+#index li, #index ul, #index ul li{
+    list-style: outside none none !important;
+}
+
+
+body{
+font-family: "Lato",sans-serif;
+float: right;
+width: 70%;
+}
+
+
+dt{
+margin: 0 0 10px 0;
+}
