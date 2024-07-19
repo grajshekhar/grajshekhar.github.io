@@ -8,16 +8,21 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="theme.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 
@@ -51,7 +56,9 @@ Engineering (2001-2005)<br />
 Government Engineering College Raipur (now NIT Raipur), Pt. Ravishankar
 Shukla University, Raipur, India</p>
 <p><strong>Experience</strong></p>
-<p>Associate Professor (2018-present)<br />
+<p>Professor (2023-present)<br />
+Department of Electrical Engineering, IIT Kanpur</p>
+<p>Associate Professor (2018-2022)<br />
 Department of Electrical Engineering, IIT Kanpur</p>
 <p>Assistant Professor (2014-2018)<br />
 Department of Electrical Engineering, IIT Kanpur</p>
@@ -134,25 +141,26 @@ include:</p>
 <h2>Students</h2>
 <p><strong>Phd</strong></p>
 <ol>
-<li>Dhruvam Pandey</li>
+<li>Dhruvam Pandey (Thesis submitted)</li>
 <li>K. N. Subhramanya</li>
 <li>Viren S Ram</li>
 </ol>
 <p><strong>M.Tech</strong></p>
 <ol>
-<li>Sahandeep Das</li>
-<li>G Saikumar</li>
 <li>Amit Padey</li>
 <li>Punna Vamshi</li>
+<li>Deendayal Kumawat</li>
+<li>Harshit Singh</li>
 </ol>
 <section id="omilalumni" class="level3">
 <h3>Alumni</h3>
 <p><strong>PhD</strong></p>
 <ol>
-<li>Ajithaprasad Sreeprasad (2021)</li>
-<li>Ankur Vishnoi (2021)</li>
-<li>Ramaiah Jagadesh (2022)</li>
-<li>Allaparthi Venkata Satya Vitin (2023)</li>
+<li>Allaparthi Venkata Satya Vitin (2023, Joined Industry)</li>
+<li>Ramaiah Jagadesh (2022, Joined Industry)</li>
+<li>Ankur Vishnoi (2021, Joined Industry)</li>
+<li>Ajithaprasad Sreeprasad (2021, Joined as postdoctoral fellow at
+University of Tokyo, Japan)</li>
 </ol>
 <p><strong>M.Tech</strong></p>
 <ol>
@@ -173,6 +181,8 @@ include:</p>
 <li>Viren S Ram (2023)</li>
 <li>Apurva Jayant (2023)</li>
 <li>Kshitiz Srivastava (2023)</li>
+<li>Sahandeep Das (2024)</li>
+<li>G Saikumar (2024)</li>
 </ol>
 <p><strong>MSR</strong></p>
 <ol>
